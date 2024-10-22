@@ -1,0 +1,133 @@
+// large devices (tablets, 425px and up)
+@media (max-width: 768px) { 
+
+// header //
+    .menuTopbar{
+        display: none !important;
+    }
+
+    .blogDesp{
+
+        width: 100% !important;
+        row-gap: 1rem !important;
+    }  
+
+    .fImg{
+        display: none !important;
+    }
+
+    // footer //
+
+   footer{
+
+    padding: 1rem !important;    
+   
+
+    .footbox{      
+
+        flex-wrap: wrap !important;
+        row-gap: 1rem !important;
+
+
+        .footlogo{
+
+            width: 100% !important;
+            height: 50% !important;   
+            row-gap: 1rem !important;        
+    
+        }
+
+        .boxPUP{
+
+            width: 100% !important;
+        }        
+
+    }
+
+    //        //
+  
+   }
+
+   .menuDesp{
+
+    width: 85% !important;
+
+    h1{
+        font-size: 6rem !important;
+    }
+
+   }
+
+   .brandBox{
+
+    .appRow1 {
+        width: 83% !important;
+    }
+
+    .appRow2 {
+        width: 99% !important;
+    }
+
+    .appRow3 {
+        width: 87% !important;
+    }
+
+    
+
+   } 
+
+//  home page index.html css    //
+
+   .centerd {
+    width: 80% !important;
+}
+   .menubox {
+    width: 85% !important;
+   
+}
+.merg {
+    width: 98% !important;
+}
+.subBox {
+    width: 90% !important;
+    row-gap: 1rem !important;
+
+    .box {
+        row-gap: 1rem;
+    }
+}
+
+.main {
+    width: 90% !important;
+
+    .imgSec {
+        width: 100% !important;
+        justify-content: space-around !important;
+       
+    
+        .colImg {
+            flex-direction: row !important;
+            column-gap: 1.5rem !important;
+        }   
+    }
+    .infoSec {
+        width: 70% !important;
+    }
+    
+
+}
+// homepage section 6 //
+
+.blogBox {
+    width: 85% !important;    
+}
+.blogBox .ourfoodContainer .foonInrCont {
+    width: 98% !important;  
+   
+}
+
+
+    
+
+
+}

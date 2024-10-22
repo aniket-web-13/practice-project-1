@@ -1,0 +1,18 @@
+.scroll-watcher {
+    height: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:#AD343E;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+
+
+@keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}

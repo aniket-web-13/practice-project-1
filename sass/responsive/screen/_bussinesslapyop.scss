@@ -1,0 +1,68 @@
+// Large devices (desktops, 992px and up)
+@media (max-width: 1440px) { 
+    
+    .headlogo{
+        width: 85% !important;
+    }
+
+    .container{
+        width: 85% !important;
+    }
+
+    .brandBox{
+
+        justify-content: center !important;
+
+
+        .brandInfo{
+
+            width: 30% !important;
+
+            h2{
+              padding: 1rem 0 !important;
+               
+                font-size: 3rem !important;
+            }
+        }
+
+        .appBox{
+            padding: 1rem 1.5rem !important;
+        }
+    }
+
+    .menuItem:nth-child(7){
+
+        display: none !important;
+
+    }
+    .menuItem:nth-child(8){
+
+        display: none !important;
+
+    }
+    .merg {
+        width: 93% !important;
+    }
+
+    .subBox{
+        width: 94% !important;
+    }
+
+     .menubox {
+        width: 94% !important;
+     }
+
+     .main{
+        width: 95% !important;
+     }
+     .customerBox{
+        width: 95% !important;
+     }
+     .blogBox {
+        width: 96% !important;
+     }
+      
+       
+    
+
+}
